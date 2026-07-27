@@ -1,7 +1,30 @@
 aid: home24
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/home24.png
 name: Home24
-description: 'Home24 is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Home24 is a leading pure-play home & living e-commerce retailer in Continental
+  Europe, founded in Berlin in 2009. It operates across Germany, France, Austria,
+  the Netherlands, Switzerland, Belgium and Italy, selling furniture and home
+  accessories through home24.de and its sister storefronts with a catalog of more
+  than 250,000 products, alongside its own private labels and logistics network.
+  Since April 2023 Home24 SE has been part of the Austrian XXXLutz Group, and it
+  was delisted from the Frankfurt Stock Exchange in September 2023. Home24
+  publishes no public developer API or OpenAPI definition; its programmatic
+  surfaces are a partner/affiliate marketing program and marketplace seller
+  integrations used to syndicate product-data feeds, plus a public engineering
+  blog. This profile was enriched by the API Evangelist pipeline; the API-artifact
+  facets are not applicable because there is no public API surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/home24/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Furniture
+- Home & Living
+- Retail
+- Marketplace
+- Germany
+common:
+- type: DomainSecurity
+  url: security/home24-domain-security.yml
+- type: LLMsTxt
+  url: llms/home24-llms.txt
+- type: Website
+  url: https://www.home24.de/
+- type: Blog
+  url: https://home24.tech.blog/
+- type: PartnerProgram
+  url: https://www.home24.de/unser-partnerprogramm/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

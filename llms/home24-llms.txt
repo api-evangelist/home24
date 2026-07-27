@@ -1,0 +1,12 @@
+# Home24
+
+> Home24 is a leading pure-play home & living e-commerce retailer in Continental Europe, founded in Berlin in 2009 and operating across Germany, France, Austria, the Netherlands, Switzerland, Belgium and Italy. It sells furniture and home accessories through home24.de and sister storefronts, offering more than 250,000 products. Home24 SE has been part of the Austrian XXXLutz Group since April 2023. It publishes no public developer API; its programmatic surfaces are a partner/affiliate marketing program and marketplace seller integrations for product-data feeds.
+
+## About
+- [Home24 website](https://www.home24.de/): Online furniture and home-accessories storefront.
+- [Home24 Technology blog](https://home24.tech.blog/): Home24's public engineering blog ("code sweet code").
+- [Partner program](https://www.home24.de/unser-partnerprogramm/): Home24 affiliate / partner marketing program.
+
+## Notes
+- No public API: Home24 does not publish an OpenAPI definition or a public developer portal. Integrations are handled via the partner/affiliate program and third-party marketplace/seller connectors (e.g. product-data syndication).
+- Corporate: Part of the XXXLutz Group since April 2023; delisted from the Frankfurt Stock Exchange in September 2023.
