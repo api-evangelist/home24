@@ -37,6 +37,9 @@ description: >-
   blog. This profile was enriched by the API Evangelist pipeline; the API-artifact
   facets are not applicable because there is no public API surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/home24/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was enriched by the API Evangelist pipeline; the API-artifact facets are not applicable because there is no public API surface to harvest."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
